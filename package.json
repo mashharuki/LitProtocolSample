@@ -1,0 +1,15 @@
+{
+  "name": "LitProtocolSample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mashharuki/LitProtocolSample.git",
+  "author": "mashharuki",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "frontend:dev": "yarn workspace frontend dev"
+  }
+}
